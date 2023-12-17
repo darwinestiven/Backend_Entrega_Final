@@ -6,14 +6,14 @@ Content-Type: application/json
 
 {
     "nombre": "lucas",
-    "edad": 3
+    "edad": 7
 }
 
 ###
 GET http://localhost:8000/mascotas/buscar/8 HTTP/1.1
 
 ###
-PUT http://localhost:8000/mascotas/actualizar/45 HTTP/1.1
+PUT http://localhost:8000/mascotas/actualizar/12 HTTP/1.1
 Content-Type: application/json
 
 {
